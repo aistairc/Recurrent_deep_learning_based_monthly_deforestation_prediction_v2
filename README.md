@@ -20,7 +20,7 @@ This repository is a modified version of [**the repository**](https://github.com
   - __Input features (in data/AreaName/feature)__:
       1. Binary of whether deforestation occurred or not (deforestation_event.csv)
       2. Area where deforestation occurred (deforestation_square_meter.csv)
-      3. Ditance to the closest road (distance_to_closest_road_meter)<br />
+      3. Ditance to the closest road (distance_to_closest_road_meter.csv)<br />
   - __Input sequence length__: 12 months<br />
 
 - 
