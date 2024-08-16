@@ -23,4 +23,4 @@ This repository is a modified version of [**the repository**](https://github.com
       3. Ditance to the closest road (distance_to_closest_road_meter.csv)<br />
   - __Input sequence length__: 12 months<br />
 
-- The deforestation prediction performances of the recurrent deep learning-based models for $1\times1$ km meshes with 1-month resolution averaged over eight areas in Brazil Amazon are summarized in <a href="https://github.com/aistairc/Reccurent_deep_learning_based_monthly_deforestation_prediction/blob/main/model_performance.jpg?raw=true" target="_blank">model_performance.png</a>.
+- The deforestation prediction performances of the recurrent deep learning-based models for $1\times1$ km meshes with 1-month resolution averaged over eight areas in Brazil Amazon are summarized in <a href="https://github.com/aistairc/Recurrent_deep_learning_based_monthly_deforestation_prediction_v2/blob/main/model_performance.png" target="_blank">model_performance.png</a>.
