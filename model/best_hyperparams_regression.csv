@@ -1,0 +1,10 @@
+net__batch_size,128
+net__module__dropout_rate,0.5
+net__module__input_dim,3
+net__module__output_dim,1
+net__module__unit_num1,32
+net__module__unit_num2,32
+net__module__unit_num3,32
+net__module__unit_num4,32
+net__optimizer__lr,0.001
+net__optimizer__weight_decay,0
