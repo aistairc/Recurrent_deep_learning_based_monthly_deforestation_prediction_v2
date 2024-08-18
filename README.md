@@ -1,5 +1,9 @@
 # Recurrent Deep Learning-based Monthly Deforestation Prediction v2
 
+### \<Scripts\>
+- __main.py__ contains all processing steps
+  - __main_GoogleColab.ipynb__ is a version of main.py for Google Colab
+
 ### \<Note\>
 This repository is a modified version of [**the repository**](https://github.com/aistairc/Recurrent_deep_learning_based_monthly_deforestation_prediction) with the following changes: <br/>
  1. Improved flexibility of whole scripts
@@ -24,5 +28,16 @@ This repository is a modified version of [**the repository**](https://github.com
       3. Ditance to the closest road (distance_to_closest_road_meter.csv)<br />
   - __Input sequence length__: 12 months<br />
 - The deforestation prediction performances of the recurrent deep learning-based models for $1\times1$ km meshes with 1-month resolution averaged over eight areas in Brazil Amazon are summarized in <a href="https://github.com/aistairc/Recurrent_deep_learning_based_monthly_deforestation_prediction_v2/blob/main/model_performance.png" target="_blank">model_performance.png</a>.
-- A comparative analysis of actual and predicted deforestation events from June to September in both 2021 and 2022 at Altamira is shown in comparative_analysis.jpg.
-- The results of the prediction of future information for each area using the latest trained model are shown in future_prediction.jpg. In this case, the model is trained with features up to August 2022 and labels up to September 2022, and features from September 2022 to the past year are input to predict the labels for October 2022.
+- A comparative analysis of actual and predicted deforestation events from June to September in both 2021 and 2022 at Altamira is shown in <a href="https://github.com/aistairc/Recurrent_deep_learning_based_monthly_deforestation_prediction_v2/blob/main/comparative_analysis.jpg" target="_blank">comparative_analysis.jpg</a>.
+- The results of the prediction of future information for each area using the latest trained model are shown in <a href="https://github.com/aistairc/Recurrent_deep_learning_based_monthly_deforestation_prediction_v2/blob/main/future_prediction.jpg">future_prediction.jpg</a>. In this case, the model is trained with features up to August 2022 and labels up to September 2022, and features from September 2022 to the past year are input to predict the labels for October 2022.
+
+### \<Environments\>
+- checked OS: WSL2 (Ubuntu 22.04)
+- Anaconda 3
+- Python 3.8.18
+- PyTorch 2.2.0 + cuda 11.8
+- scikit-learn 1.3.2
+- skorch 0.15.0
+- The virtual environment configuration is provided as requirements.txt
+  - You can reproduce the environment by<br/>
+```conda install --yes --file requirements.txt```<br/>
