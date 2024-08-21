@@ -56,7 +56,7 @@ class config:
         self.DURATION = 12
         self.REMAKING = False
 
-        # hyperparam search inf
+        # hyperparam search info
         self.unit_num_range = [16, 32, 64, 128] 
         self.batch_size_range = [64, 128, 256]
         self.lr_range =  [0.0001, 0.001, 0.01, 0.1]
