@@ -119,7 +119,7 @@ else:
     print('-----------------')
 
 #####################
-# furure prediction # 
+# future prediction # 
 #####################
 # predict deforestation event of next month (no true values) using the latest model
 if cfg.FUTURE_PREDICT == True:
